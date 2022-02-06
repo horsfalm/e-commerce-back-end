@@ -4,5 +4,23 @@
     "express": "^4.17.2",
     "mysql2": "^2.3.3",
     "sequelize": "^6.15.1"
-  }
+  },
+  "scripts": {
+    "start": "node server.js",
+    "seed": "node seeds/index.js"
+  },
+  "name": "e-commerce-back-end",
+  "description": "week 13 project",
+  "version": "1.0.0",
+  "main": "server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/horsfalm/e-commerce-back-end.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/horsfalm/e-commerce-back-end/issues"
+  },
+  "homepage": "https://github.com/horsfalm/e-commerce-back-end#readme"
 }
